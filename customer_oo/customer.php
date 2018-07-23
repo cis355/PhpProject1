@@ -41,6 +41,7 @@ switch ($fun) {
         $cust->delete_db_record($id);
         break;
     case 0: // list
-    default: // list
+    default: 
         $cust->list_records();
+        break;
 }
